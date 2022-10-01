@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     padding: 0 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(rgb(222, 222, 255),rgb(63, 156, 141));
+    background: red;
 }
 
 main {
