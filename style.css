@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(rgb(222, 222, 255),rgb(63, 156, 141));
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main div {
+    border-radius: 20px;
+    padding: 20px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    background: linear-gradient(rgb(241, 241, 248),rgb(216, 243, 239));
+}
+
+main div ul {
+    list-style: circle;
+    transition: 1s;
+}
+
+main div ul li {
+    width: auto;
+}
+
+main div ul li:hover {
+    color: white;
+    background: rgba(128, 128, 128, 0.486);
+    padding: 10px 5px;
+    border-radius: 20px;
+    text-align: center;
+}
